@@ -50,10 +50,3 @@ Aplikacja oparta na Flasku umożliwia przesyłanie plików audio, które są nas
 ## Klucz API i koszty
 
 Do działania aplikacji wymagany jest **klucz API OpenAI**, który umożliwia komunikację z modelami Whisper i GPT-4. Należy pamiętać, że każde zapytanie do API zużywa tokeny, co generuje **koszty**. Koszty te zależą od liczby zużytych tokenów, dlatego zaleca się monitorowanie wykorzystania API, szczególnie przy intensywnym korzystaniu z aplikacji.
-
-## Instalacja
-
-1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/twojerepo.git
-   cd twojerepo
