@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Audio for Processing</title>
+</head>
+<body>
+    <h1>Prześlij plik audio do przetwarzania</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Wybierz plik audio (MP3, WAV):</label><br><br>
+        <input type="file" name="file" accept="audio/*"><br><br>
+        <input type="submit" value="Prześlij">
+    </form>
+    <div id="result">
+        <h3>Wynik:</h3>
+        <p id="response_output"></p>
+    </div>
+</body>
+</html>

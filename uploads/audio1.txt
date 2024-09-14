@@ -1,0 +1,25 @@
+Aby upewnić się, że nasz serwer Zabbix jest osiągalny, możemy użyć polecenia PING. Oto kroki, które należy wykonać:
+
+1. **Sprawdzenie osiągalności serwera Zabbix:**
+   - Otwórz terminal (na systemie Linux lub macOS) lub wiersz polecenia (na systemie Windows).
+   - Wpisz polecenie `ping` oraz adres IP serwera Zabbix, np.:
+     ```
+     ping 192.168.1.100
+     ```
+   - Jeśli serwer jest osiągalny, powinieneś zobaczyć odpowiedzi z serwera.
+
+2. **Logowanie do interfejsu webowego Zabbix:**
+   - Otwórz przeglądarkę internetową (np. Chrome, Firefox).
+   - Wpisz adres IP przypisany przez DHCP do serwera Zabbix w pasku adresu przeglądarki, np.:
+     ```
+     http://192.168.1.100
+     ```
+   - Powinien otworzyć się interfejs webowy Zabbix.
+
+3. **Logowanie do panelu administracyjnego Zabbix:**
+   - Na stronie logowania Zabbix wprowadź domyślne poświadczenia:
+     - **Nazwa użytkownika:** `Admin`
+     - **Hasło:** `zabbix`
+   - Kliknij przycisk "Login" (Zaloguj się).
+
+Jeśli wszystko zostało wykonane poprawnie, powinieneś uzyskać dostęp do panelu administracyjnego Zabbix i móc zarządzać swoim systemem monitorowania. Pamiętaj, że ze względów bezpieczeństwa zaleca się zmianę domyślnych poświadczeń na bardziej bezpieczne po pierwszym zalogowaniu.
